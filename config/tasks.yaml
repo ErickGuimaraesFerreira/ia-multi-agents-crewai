@@ -1,0 +1,53 @@
+gerente_task:
+  description: >
+    Gerenciar uma equipe de agentes, delegando as funções de acordo com as necessidades do projeto e a capacidade de cada agente.
+    Delegar tarefas de acordo com as necessidades do projeto e a capacidade de cada agente.
+  expected_output: >
+    Um relatório estruturado contendo os principais achados, dados brutos e uma lista de URLs das fontes verificadas.
+  agent: gerente
+
+pesquisador_task:
+  description: >
+    Conduzir uma pesquisa abrangente sobre {topic}. 
+    Identificar tendências principais, estatísticas recentes (2024-2025) e notícias relevantes.
+    Identificar tendências para o proximos 5 anos.
+    Validar a credibilidade das fontes.
+  expected_output: >
+    Um relatório estruturado contendo os principais achados, dados brutos e uma lista de URLs das fontes verificadas.
+  agent: pesquisador
+
+analista_task:
+  description: >
+    Realizar uma análise da pesquisa feita pelo pesquisador acerca do tema {topic}.
+    Garantir que a pesquisa esteja com boas informações, caso contrário, deve pedir para refazer.
+    Realizar um controle de qualidade da pesquisa.
+    Validar a credibilidade das fontes.
+  expected_output: >
+    Um relatório estruturado contendo os principais achados da pesquisa.
+    No relatório deve conter uma nota de 0 a 10 para a pesquisa realizada.
+  agent: analista
+
+escritor_task:
+  description: >
+    Redigir o relatório da pesquisa após o controle de qualidade realizado pelo analista.
+    Garantir que o relatório não use termos técnicos complexos.
+    Garantir que o relatório seja facilmente compreensível.
+    Garantir que o relatório tenha sugestões de ações a serem tomadas de acordo com as tendências identificadas.
+    Garantir que o relatório tenha 5 pontos negativos e 5 pontos positivos.
+    Garantir que o relatório tenha titulos para os principais achados.
+  expected_output: >
+    Um relatório estruturado contendo os principais achados da pesquisa.
+    Um relatório abrangente e facilmente compreensível.
+  agent: escritor
+
+revisor_task:
+  description: >
+    Revisar o relatório da pesquisa e verificar se está de boa qualidade.
+    Revisar o conteúdo final criado pelo Escritor, verificando alucinações, erros gramaticais,
+    consistência lógica e alinhamento com o pedido original do Gerente.
+  expected_output: >
+    Um relatório estruturado contendo os principais achados da pesquisa.
+    Um relatório abrangente e facilmente compreensível.
+  agent: revisor
+
+
