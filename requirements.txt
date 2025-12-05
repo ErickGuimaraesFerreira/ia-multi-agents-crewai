@@ -1,0 +1,23 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# Multi-Agents-IA - Requirements
+# ══════════════════════════════════════════════════════════════════════════════
+
+# Core Framework
+crewai>=0.80.0
+crewai-tools>=0.14.0
+
+# LLM Integration
+google-generativeai>=0.8.0
+litellm>=1.50.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# Development Tools (optional)
+# pytest>=8.0.0
+# pytest-cov>=4.1.0
+# black>=24.0.0
+# isort>=5.13.0
+# flake8>=7.0.0
+# mypy>=1.8.0
+# pre-commit>=3.6.0
