@@ -93,8 +93,8 @@ graph TD
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/Multi-Agents-IA.git
-cd Multi-Agents-IA
+git clone https://github.com/ErickGuimaraesFerreira/ia-multi-agents-crewai
+cd ia-multi-agents-crewai
 
 # 2. Crie o ambiente virtual
 python -m venv .venv
@@ -253,5 +253,6 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 <img src="https://img.shields.io/badge/Made%20with-AntiGravity-purple?style=flat-square&logo=rocket" alt="Made with AntiGravity">
 
 </div>
+
 
 
