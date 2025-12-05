@@ -12,7 +12,7 @@
 
 **Sistema Multi-Agentes de IA para Pesquisa e Análise Automatizada**
 
-*Desenvolvido com [AntiGravity](https://antigravity.dev) - A IDE Agentic de próxima geração* 🚀
+*Desenvolvido com [AntiGravity](https://antigravity.dev) 🚀
 
 [Início Rápido](#-início-rápido) •
 [Funcionalidades](#-funcionalidades) •
@@ -253,3 +253,4 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 <img src="https://img.shields.io/badge/Made%20with-AntiGravity-purple?style=flat-square&logo=rocket" alt="Made with AntiGravity">
 
 </div>
+
